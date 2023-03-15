@@ -1,18 +1,5 @@
-@keyframes colors {
-  from {
-    background: orange;
-  }
-  to {
-    background: blue;
-  }
-}
-
 .main-styles {
   padding: 10%;
-}
-
-.splash {
-  animation: colors 5s infinite alternate;
 }
 
 .darkmode {

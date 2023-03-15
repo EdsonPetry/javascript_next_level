@@ -25,9 +25,6 @@ function toggleDarkMode() {
   }
 }
 
-function colorBlast() {
-  body.classList.add('splash');
-}
 
 function countdown() {
   var timer = setInterval(function () {
@@ -37,7 +34,6 @@ function countdown() {
     // check count and if equal to zero, clear interval
     if (count === 0) {
       clearInterval(timer);
-      colorBlast();
     }
   }, 1000);
 }

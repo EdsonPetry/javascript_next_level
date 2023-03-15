@@ -1,0 +1,16 @@
+.mainStyles {
+    padding: 10%;
+
+}
+
+.darkMode {
+    background-color: #777;
+}
+
+.darkMode * {
+    color: #fff;
+}
+
+.darkMode button {
+    color: #000;
+} 

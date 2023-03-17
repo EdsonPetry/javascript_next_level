@@ -1,16 +1,56 @@
-.mainStyles {
-    padding: 10%;
-
+/*** RESETS ***/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sono', sans-serif;
 }
 
-.darkMode {
-    background-color: #777;
+/*** GLOBAL CLASSES ***/
+.start-page {
+    text-align: center;
+    padding: 40vh 0 0 0;
 }
 
-.darkMode * {
+button {
+    padding: 10px 22px 10px 22px;
+    margin: 20px;
+    background-color: rgb(83, 21, 83);
     color: #fff;
+    font-size: 25px;
 }
 
-.darkMode button {
-    color: #000;
-} 
+button:hover {
+    cursor: pointer;
+    background-color: rgb(66, 19, 66);
+    box-shadow: 5px 10px #888888;
+}
+
+.quiz-div {
+    text-align: center;
+    padding: 20px;
+    margin: 200px 200px;
+    border: black solid;
+    border-radius: 10px;
+}
+
+.hide {
+    display:none;
+}
+/*** CUSTOM STYLES ***/
+.start-page h1 {
+    font-size: 60px;
+}
+
+.quiz-div #question-display {
+    font-size: 40px;
+}
+
+.quiz-div li {
+    display: grid;
+}
+
+
+
+
+/*** RESPONSIVE STYLES ***/
